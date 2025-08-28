@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import PregnancyTracker from './components/PregnancyTracker';
 import HealthChecklist from './components/HealthChecklist';
+import InformationBoard from './components/InformationBoard';
 import TipsSection from './components/TipsSection';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <main className="container mx-auto px-4 py-8 space-y-12">
         <PregnancyTracker currentWeek={currentWeek} onWeekChange={setCurrentWeek} />
         <HealthChecklist />
+        <InformationBoard />
         <TipsSection currentWeek={currentWeek} />
       </main>
       <Footer />

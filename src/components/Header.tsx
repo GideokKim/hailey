@@ -20,6 +20,9 @@ const Header: React.FC = () => {
             <a href="#checklist" className="text-gray-600 hover:text-primary-600 transition-colors">
               건강 체크리스트
             </a>
+            <a href="#information-board" className="text-gray-600 hover:text-primary-600 transition-colors">
+              정보 게시판
+            </a>
             <a href="#tips" className="text-gray-600 hover:text-primary-600 transition-colors">
               임신 팁
             </a>

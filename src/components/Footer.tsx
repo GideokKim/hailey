@@ -42,6 +42,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><a href="#tracker" className="text-gray-300 hover:text-white transition-colors">임신 추적</a></li>
               <li><a href="#checklist" className="text-gray-300 hover:text-white transition-colors">건강 체크리스트</a></li>
+              <li><a href="#information-board" className="text-gray-300 hover:text-white transition-colors">정보 게시판</a></li>
               <li><a href="#tips" className="text-gray-300 hover:text-white transition-colors">임신 팁</a></li>
               <li><a href="#chat" className="text-gray-300 hover:text-white transition-colors">챗봇 상담</a></li>
             </ul>
