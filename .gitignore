@@ -1,0 +1,113 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Hailey 서비스 특화 설정 =====
+
+# 환경 변수 파일들
+.env
+.env.*
+!.env.example
+
+# 로그 파일들
+*.log
+logs/
+log/
+
+# 임시 파일들
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# 에디터 설정 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 생성 파일들
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 백업 파일들
+*.bak
+*.backup
+*.old
+
+# 데이터베이스 파일들 (로컬 개발용)
+*.db
+*.sqlite
+*.sqlite3
+
+# 업로드된 파일들 (사용자 이미지, 임신 일기 사진 등)
+uploads/
+public/uploads/
+media/
+
+# 캐시 파일들
+.cache/
+.parcel-cache/
+.next/
+
+# 배포 관련
+dist/
+out/
+
+# 보안 관련
+*.pem
+*.key
+*.crt
+*.p12
+
+# 성능 모니터링
+.nyc_output/
+coverage/
+
+# TypeScript 관련
+*.tsbuildinfo
+
+# Tailwind CSS 관련
+.tailwindcss-manifest.json
+
+# Supabase 관련 (향후 모바일 앱 개발 시)
+.supabase/
+
+# LLM API 키 관련 (향후 챗봇 개발 시)
+api-keys/
+secrets/
+
+# 사용자 데이터 (개인정보 보호)
+user-data/
+personal/
+private/
+
+# 테스트 커버리지
+coverage/
+*.lcov
+
+# 번들 분석 결과
+bundle-analyzer-report.html
+webpack-bundle-analyzer-report.html
